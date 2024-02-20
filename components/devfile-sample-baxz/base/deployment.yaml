@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-baxz
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0018-tenant/tkrw-pr712-0075-0018-app/devfile-sample-baxz@sha256:6827a916e74b35ded9f6a4f218df8679c1f241a90dd8ecd65b4d7df707c1ba70
         name: my-nodejs
         ports:
         - containerPort: 3001
